@@ -1,0 +1,60 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding: 8px;
+}
+
+.title {
+  font-size: 20px;
+  color: tomato;
+  padding: 8px;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.input__label {
+}
+
+.input__input {
+  border: 1px solid #696969;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.input__textarea {
+  border: 1px solid #696969;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.input__input :focus {
+  outline: none;
+}
+
+.button-gr {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.button-gr__btn-add {
+  padding: 8px;
+  background-color: mediumturquoise;
+  color: white;
+}
+
+.button-gr__btn-reset {
+  padding: 8px;
+  background-color: lightgray;
+  color: white;
+}

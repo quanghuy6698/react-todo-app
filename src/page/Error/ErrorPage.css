@@ -1,0 +1,11 @@
+.wrapper {
+  padding: 24px;
+}
+
+.error {
+  background-color: bisque;
+  color: tomato;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px;
+}
