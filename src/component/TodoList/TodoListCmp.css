@@ -1,0 +1,26 @@
+.todo-list {
+  padding: 8px;
+}
+
+.item-wrapper {
+  padding-bottom: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background-color: bisque;
+}
+
+.item__title {
+  font-size: 20px;
+}
+
+.item__descr {
+  color: #696969;
+}
+
+.item__date {
+  color: tomato;
+}

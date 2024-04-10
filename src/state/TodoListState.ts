@@ -7,13 +7,15 @@ export const todoListSlice = createSlice({
       {
         id: "abc",
         title: "Item 1",
-        descr: "Descr 1",
+        descr:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         date: "22/12/2023",
       },
       {
         id: "abcd",
         title: "Item 2",
-        descr: "Descr 2",
+        descr:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         date: "24/12/2023",
       },
     ],
